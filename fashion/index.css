@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+.navbar{
+    display: flex;
+margin-top: 20px;
+margin-left: 40px;
+}   
+
+.logo {
+    
+width: 170px;
+height: 55px;
+}
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+   padding: 20px;
+   padding-left: 60px;
+    font-family: serif;
+    
+    
+}
+li a {
+    text-decoration: none;
+    color: rgba(67, 71, 72, 0.884);
+    font-weight: bold;
+  
+}
+ li:hover a{
+
+text-decoration: underline rgb(118, 154, 219);
+ }
+
+ .cart{
+    width: 45px;
+    height: 48px;
+ position: absolute;
+ right: 3%;
+cursor: pointer;
+ }
+
+body{
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+}
+
+
+section{
+position: absolute;
+    top: 38%;
+    left: 18%;
+}
+
+button{
+    cursor: pointer;
+    background: linear-gradient(45deg , #87adfe , #ff77cd);
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 121px;
+    height: 26px;
+    
+}
+button:hover{
+    transform: scale(1.02);
+    color: rgba(245, 253, 254, 0.773);
+    font-weight: bold;
+}
+
+#feature-line{
+    margin-top: 25px;
+    font-size: 55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: rgba(51, 71, 71, 0.789);
+}
+
+p{
+    margin-top: 5%;
+    margin-left: -6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(97, 48, 204, 0.63);
+    font-weight: 150;
+}
+
+.arrow{
+    
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+    
+}
+.arrow img {
+width: 48px;
+margin-right: 25px;
+
+}
+.model-image img{
+    position: absolute;
+    
+    height: 90%;
+   bottom: 0%;
+   left: 50%;
+    background-repeat: no-repeat;
+    
+
+}
+
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80;
+    bottom: 180px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+@media screen and (min-width:300px) and (max-width:930px)
+ {
+    .logo{
+        position: absolute;
+        left: 2%;
+        height: 50px;
+        width: 120px;
+    }
+    .cart{
+        position: absolute;
+        top: 1%;
+        right: 1.5%;
+    }
+    body{
+        width: px;
+    }
+}
